@@ -17,7 +17,6 @@ setuptools.setup(
         'requests',
         'pyVim',
         'pyVmomi',
-        'ssl',
         'json'
     ],
 )
