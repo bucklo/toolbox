@@ -20,3 +20,4 @@ setuptools.setup(
         'ssl',
         'json'
     ],
+)
