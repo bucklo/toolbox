@@ -16,7 +16,6 @@ setuptools.setup(
     install_requires=[
         'requests',
         'pyVim',
-        'pyVmomi',
-        'json'
+        'pyVmomi'
     ],
 )
