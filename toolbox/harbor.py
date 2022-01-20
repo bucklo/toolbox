@@ -10,9 +10,6 @@ class harbor:
         user = provider["user"]
         pwd = provider["pwd"]
 
-        print(f"Connecting to {host}")
-        
-
         self.auth = HTTPBasicAuth(user, pwd)
         self.headers = {"content-type": "application/json"}
         self.baseURL = f"https://{host}/api/v2.0"
